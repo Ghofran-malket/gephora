@@ -11985,4 +11985,29 @@ footer.footer {
 p {
   font-family: "Hind Madurai", serif;
   font-size: 18px;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/hero-scene-1.jpg");
+  background-size: cover;
+  filter: brightness(0.5);
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
