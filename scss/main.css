@@ -12052,4 +12052,8 @@ p {
   transition: all 0.3s;
   width: 90%;
   margin: 0 10px;
+}
+
+.form-label {
+  color: #AA1945;
 }/*# sourceMappingURL=main.css.map */
