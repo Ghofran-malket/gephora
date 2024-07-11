@@ -12019,4 +12019,37 @@ p {
 .image-size {
   height: 150px;
   width: 150px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.image-card {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.image-card:hover .titre-image {
+  opacity: 1;
+}
+.image-card:hover img {
+  filter: brightness(0.3);
+}
+.image-card img {
+  transition: all 0.3s;
+}
+.image-card .titre-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+  width: 90%;
+  margin: 0 10px;
 }/*# sourceMappingURL=main.css.map */
